@@ -1,0 +1,178 @@
+    * {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+    header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    }
+
+    header img {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    header nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    header a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    header a:hover {
+    color: #fff;
+    background-color: #000000;
+    padding: 10px;
+    }
+    
+    input[type="text"] {
+    width: 60%;
+    padding: 20px 80px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: black;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border-style: groove;
+    }
+
+
+    button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 22px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    }
+
+    .produtos {
+    width: 30%;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px 4px #ccc;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.2em;
+    margin: 20px;
+    align-items: center;
+    }
+
+    .produtos img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    .produtos p {
+    font-size: 1em;
+    margin: 10px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .produtos h2{
+    font-size: 2em;
+    margin: 10px;
+    color: #000000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    }
+
+    .produtos a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+        
+
+    .banner_joao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    }
+    .banner_joao img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+    .divisoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    }
+    .divisoria img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    }
+
+    p.desc {
+    font-size: 25px;
+    }
+
+    footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    }
+        
+    #RodapeL {
+    width: 50%;        
+    }
+    
+    #RodapeR {
+    width: 50%;
+    }
+    

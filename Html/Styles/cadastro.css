@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .box-login {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   }
+   
+   .content-box {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       margin-top: 50px;
+   }
+   
+   .content-box .form-box {
+       width: 60%;
+   }
+   
+   .content-box .form-box h2 {
+       color: #000000;
+       font-weight: 600;
+       font-size: 2em;
+       text-transform: uppercase;
+       margin-bottom: 15px;
+       text-align: center;
+   }
+   
+   .content-box .form-box .input-box {
+       margin-bottom: 30px;
+       box-shadow: 2px 2px   #000000;
+   }
+   
+   .content-box .form-box .input-box input {
+       width: 100%;
+       padding: 10px;
+       outline: none;
+       font-weight: 400;
+       border: none;
+       font-size: 17px;
+       color: #000000;
+       background-color: #ecf2f7;
+       border-radius: 5px;
+   }
+   
+   .content-box .form-box .input-box span {
+       font-size: 16px;
+       margin-bottom: 5px;
+       display: inline-block;
+       color: #000000;
+       font-weight: 400;
+   }
+   
+   
+   .content-box .form-box .input-box input[type=submit] {
+       background: #ab1414;
+       color: #fff;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       cursor: pointer;
+       font-size: 20px;
+       transition: 0.3s;
+   }
+
+   
+   .Voltar .Voltar {
+    width: 5%;
+    padding: 10px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2195f3; 
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  #000000;
+    justify-content: center;
+}
+
+    .Voltar .Voltar a {
+        color: #ecf2f7;
+        align-items: center;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+    }
+   
